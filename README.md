@@ -34,9 +34,9 @@ Flow is not just a Neovim plugin; it is a **Single Core, Dual Frontend** archite
 ## 📚 Documentation
 If you are looking to contribute or understand how Flow works under the hood, check out our comprehensive engineering specifications in the `docs/` folder:
 
-* [**Core Architecture**](docs/architecture_core.md): The Rust daemon, state management, and telemetry.
+* [**Core Architecture**](docs/architecture.md): The Rust daemon, state management, and telemetry.
 * [**Data Models & Sync**](docs/data_schema_sync.md): SQLite schema, Git-backed syncing, and data retention.
-* [**UI & Keybindings**](docs/ui_and_keybindings.md): Ratatui dashboard layouts, Neovim buffers, and Vim motions.
+* [**UI & Keybindings**](docs/ui_and_keymaps.md): Ratatui dashboard layouts, Neovim buffers, and Vim motions.
 * [**External Integrations**](docs/integrations_and_api.md): `git2-rs`, GitHub API delegation, and Calendar sync.
 * [**The Daily Routine**](docs/daily_routine.md): The product vision and Key Performance Indicators (KPIs).
 
